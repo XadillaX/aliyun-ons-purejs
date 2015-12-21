@@ -1,0 +1,24 @@
+{
+  "name": "ons.js",
+  "version": "1.0.0",
+  "description": "☁️ SDK of Node.js for Aliyun ONS with pure js. 🚀",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XadillaX/aliyun-ons-purejs.git"
+  },
+  "author": "XadillaX <i@2333.moe>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/XadillaX/aliyun-ons-purejs/issues"
+  },
+  "homepage": "https://github.com/XadillaX/aliyun-ons-purejs#readme",
+  "dependencies": {
+    "debug": "^2.2.0",
+    "enum": "^2.3.0",
+    "long": "^3.0.1"
+  }
+}
