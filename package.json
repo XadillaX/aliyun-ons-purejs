@@ -4,7 +4,9 @@
   "description": "☁️ SDK of Node.js for Aliyun ONS with pure js. 🚀",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -24,6 +26,8 @@
     "enum": "^2.3.0",
     "lodash": "^4.15.0",
     "nan": "^2.4.0",
-    "spidex": "^2.1.2"
-  }
+    "spidex": "^2.1.2",
+    "snyk": "^1.189.0"
+  },
+  "snyk": true
 }
