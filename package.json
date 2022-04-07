@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/XadillaX/aliyun-ons-purejs#readme",
   "dependencies": {
-    "async": "^2.0.1",
+    "async": "^3.2.2",
     "byte": "^1.1.5",
     "bytes": "^2.4.0",
     "debug": "^2.2.0",
